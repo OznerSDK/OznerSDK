@@ -18,10 +18,10 @@
 #import <Oznerlibrary/MXChipPair.h>
 #import <Oznerlibrary/Helper.h>
 #import <Oznerlibrary/OznerManager.h>      
-     
   pair=[[MXChipPair alloc] init];//初始化
   pair.delegate=self;（MxChipPairDelegate）//设置代理
     ```
+    
     * 开始配对
 
     ```
