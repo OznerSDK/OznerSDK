@@ -1,0 +1,6 @@
+framework module Oznerlibrary {
+  umbrella header "Oznerlibrary.h"
+
+  export *
+  module * { export * }
+}

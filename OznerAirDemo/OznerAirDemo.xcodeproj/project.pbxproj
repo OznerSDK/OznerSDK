@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D1039B61F4B3F5800DDBCA3 /* AnimatedGIFImageSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1039B51F4B3F5800DDBCA3 /* AnimatedGIFImageSerialization.m */; };
+		8D27C5151F4B104300E0BA86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D27C5141F4B104300E0BA86 /* main.m */; };
+		8D27C5231F4B104300E0BA86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D27C5211F4B104300E0BA86 /* LaunchScreen.storyboard */; };
+		8D27C52F1F4B107800E0BA86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D27C52B1F4B107800E0BA86 /* AppDelegate.m */; };
+		8D27C5301F4B107800E0BA86 /* DeviceTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D27C52D1F4B107800E0BA86 /* DeviceTableController.m */; };
+		8D27C5311F4B107800E0BA86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D27C52E1F4B107800E0BA86 /* Main.storyboard */; };
+		8D27C5341F4B108000E0BA86 /* AddDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D27C5331F4B108000E0BA86 /* AddDeviceViewController.m */; };
+		8D27C5371F4B10A400E0BA86 /* Airgif_blue.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8D27C5351F4B10A400E0BA86 /* Airgif_blue.gif */; };
+		8D27C53C1F4B118E00E0BA86 /* Oznerlibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D27C53B1F4B118E00E0BA86 /* Oznerlibrary.framework */; };
+		8D27C53D1F4B118E00E0BA86 /* Oznerlibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8D27C53B1F4B118E00E0BA86 /* Oznerlibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8D27C5401F4B12AA00E0BA86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D27C53F1F4B12AA00E0BA86 /* Assets.xcassets */; };
+		8D27C5431F4B151300E0BA86 /* AirViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D27C5421F4B151300E0BA86 /* AirViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8D27C53E1F4B118E00E0BA86 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8D27C53D1F4B118E00E0BA86 /* Oznerlibrary.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8D1039B41F4B3F5800DDBCA3 /* AnimatedGIFImageSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedGIFImageSerialization.h; sourceTree = "<group>"; };
+		8D1039B51F4B3F5800DDBCA3 /* AnimatedGIFImageSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedGIFImageSerialization.m; sourceTree = "<group>"; };
+		8D27C5101F4B104300E0BA86 /* OznerAirDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OznerAirDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D27C5141F4B104300E0BA86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D27C5221F4B104300E0BA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D27C5241F4B104300E0BA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D27C52A1F4B107800E0BA86 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D27C52B1F4B107800E0BA86 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D27C52C1F4B107800E0BA86 /* DeviceTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTableController.h; sourceTree = "<group>"; };
+		8D27C52D1F4B107800E0BA86 /* DeviceTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTableController.m; sourceTree = "<group>"; };
+		8D27C52E1F4B107800E0BA86 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8D27C5321F4B108000E0BA86 /* AddDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDeviceViewController.h; sourceTree = "<group>"; };
+		8D27C5331F4B108000E0BA86 /* AddDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDeviceViewController.m; sourceTree = "<group>"; };
+		8D27C5351F4B10A400E0BA86 /* Airgif_blue.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Airgif_blue.gif; sourceTree = "<group>"; };
+		8D27C53B1F4B118E00E0BA86 /* Oznerlibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Oznerlibrary.framework; sourceTree = "<group>"; };
+		8D27C53F1F4B12AA00E0BA86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D27C5411F4B151300E0BA86 /* AirViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirViewController.h; sourceTree = "<group>"; };
+		8D27C5421F4B151300E0BA86 /* AirViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D27C50D1F4B104200E0BA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D27C53C1F4B118E00E0BA86 /* Oznerlibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D1039B31F4B3F5800DDBCA3 /* AnimatedGIFImageSerialization */ = {
+			isa = PBXGroup;
+			children = (
+				8D1039B41F4B3F5800DDBCA3 /* AnimatedGIFImageSerialization.h */,
+				8D1039B51F4B3F5800DDBCA3 /* AnimatedGIFImageSerialization.m */,
+			);
+			path = AnimatedGIFImageSerialization;
+			sourceTree = "<group>";
+		};
+		8D27C5071F4B104200E0BA86 = {
+			isa = PBXGroup;
+			children = (
+				8D1039B31F4B3F5800DDBCA3 /* AnimatedGIFImageSerialization */,
+				8D27C53B1F4B118E00E0BA86 /* Oznerlibrary.framework */,
+				8D27C5121F4B104300E0BA86 /* OznerAirDemo */,
+				8D27C5111F4B104300E0BA86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D27C5111F4B104300E0BA86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D27C5101F4B104300E0BA86 /* OznerAirDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D27C5121F4B104300E0BA86 /* OznerAirDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8D27C53F1F4B12AA00E0BA86 /* Assets.xcassets */,
+				8D27C5351F4B10A400E0BA86 /* Airgif_blue.gif */,
+				8D27C52A1F4B107800E0BA86 /* AppDelegate.h */,
+				8D27C52B1F4B107800E0BA86 /* AppDelegate.m */,
+				8D27C52E1F4B107800E0BA86 /* Main.storyboard */,
+				8D27C52C1F4B107800E0BA86 /* DeviceTableController.h */,
+				8D27C52D1F4B107800E0BA86 /* DeviceTableController.m */,
+				8D27C5321F4B108000E0BA86 /* AddDeviceViewController.h */,
+				8D27C5331F4B108000E0BA86 /* AddDeviceViewController.m */,
+				8D27C5411F4B151300E0BA86 /* AirViewController.h */,
+				8D27C5421F4B151300E0BA86 /* AirViewController.m */,
+				8D27C5211F4B104300E0BA86 /* LaunchScreen.storyboard */,
+				8D27C5241F4B104300E0BA86 /* Info.plist */,
+				8D27C5131F4B104300E0BA86 /* Supporting Files */,
+			);
+			path = OznerAirDemo;
+			sourceTree = "<group>";
+		};
+		8D27C5131F4B104300E0BA86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D27C5141F4B104300E0BA86 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D27C50F1F4B104200E0BA86 /* OznerAirDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D27C5271F4B104300E0BA86 /* Build configuration list for PBXNativeTarget "OznerAirDemo" */;
+			buildPhases = (
+				8D27C50C1F4B104200E0BA86 /* Sources */,
+				8D27C50D1F4B104200E0BA86 /* Frameworks */,
+				8D27C50E1F4B104200E0BA86 /* Resources */,
+				8D27C53E1F4B118E00E0BA86 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OznerAirDemo;
+			productName = OznerAirDemo;
+			productReference = 8D27C5101F4B104300E0BA86 /* OznerAirDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D27C5081F4B104200E0BA86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "赵兵";
+				TargetAttributes = {
+					8D27C50F1F4B104200E0BA86 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UZZG6NM74T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8D27C50B1F4B104200E0BA86 /* Build configuration list for PBXProject "OznerAirDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D27C5071F4B104200E0BA86;
+			productRefGroup = 8D27C5111F4B104300E0BA86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D27C50F1F4B104200E0BA86 /* OznerAirDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D27C50E1F4B104200E0BA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D27C5311F4B107800E0BA86 /* Main.storyboard in Resources */,
+				8D27C5231F4B104300E0BA86 /* LaunchScreen.storyboard in Resources */,
+				8D27C5401F4B12AA00E0BA86 /* Assets.xcassets in Resources */,
+				8D27C5371F4B10A400E0BA86 /* Airgif_blue.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D27C50C1F4B104200E0BA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1039B61F4B3F5800DDBCA3 /* AnimatedGIFImageSerialization.m in Sources */,
+				8D27C5431F4B151300E0BA86 /* AirViewController.m in Sources */,
+				8D27C5341F4B108000E0BA86 /* AddDeviceViewController.m in Sources */,
+				8D27C5301F4B107800E0BA86 /* DeviceTableController.m in Sources */,
+				8D27C52F1F4B107800E0BA86 /* AppDelegate.m in Sources */,
+				8D27C5151F4B104300E0BA86 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D27C5211F4B104300E0BA86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D27C5221F4B104300E0BA86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D27C5251F4B104300E0BA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D27C5261F4B104300E0BA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D27C5281F4B104300E0BA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = OznerAirDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zb.OznerAirDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D27C5291F4B104300E0BA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = OznerAirDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zb.OznerAirDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D27C50B1F4B104200E0BA86 /* Build configuration list for PBXProject "OznerAirDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D27C5251F4B104300E0BA86 /* Debug */,
+				8D27C5261F4B104300E0BA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D27C5271F4B104300E0BA86 /* Build configuration list for PBXNativeTarget "OznerAirDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D27C5281F4B104300E0BA86 /* Debug */,
+				8D27C5291F4B104300E0BA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D27C5081F4B104200E0BA86 /* Project object */;
+}
